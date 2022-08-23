@@ -1,0 +1,77 @@
+/* DECORATION PRODUCTS HOME PAGE */
+
+.products_container {
+    display: flex;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    margin: auto;
+
+    position: relative;
+    top: 90px;
+
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+
+    animation: fadein;
+    animation-duration: 1.2s;
+}
+
+
+.card-header {
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+}
+
+.card-img {
+    position: relative;
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item-price {
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 1.0em;
+    color: rgb(15, 15, 15);
+}
+
+.card-body {
+    padding: 10px;
+}
+
+
+.card-footer {
+    width: 200px;
+    margin: auto;
+    padding: 5px;
+}
+
+.card-footer p {
+    text-align: center;
+    background-color: rgb(0, 179, 74);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.card-footer p:hover {
+    background-color:  rgb(29, 46, 36);
+    transition: 0.5s;
+}
+
+.card-footer a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 1.0em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
