@@ -292,7 +292,7 @@ button:hover {
         top: 40px;
     }
 
-    .itens-txt h2 {
+    .itens-txt h2,p {
         text-align: center;
         margin: auto;
         padding: 0px;
