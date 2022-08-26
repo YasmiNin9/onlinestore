@@ -292,9 +292,11 @@ button:hover {
         top: 40px;
     }
 
-    .itens-txt h2, p {
+    .itens-txt h2 {
         text-align: center;
         margin: auto;
+        padding: 0px;
+        letter-spacing: 0;
     }
 
     .products_container .card {
